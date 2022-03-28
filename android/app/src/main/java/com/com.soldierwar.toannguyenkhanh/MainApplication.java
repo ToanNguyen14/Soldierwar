@@ -1,4 +1,4 @@
-package com.com.soldierwar.toannguyenkhanh;
+package com.dribblekings.toannguyenkhanh;
 
 import android.app.Application;
 import android.content.Context;

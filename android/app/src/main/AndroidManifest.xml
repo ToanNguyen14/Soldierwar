@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.com.soldierwar.toannguyenkhanh">
+  package="com.dribblekings.toannguyenkhanh">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

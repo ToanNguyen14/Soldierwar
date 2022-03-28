@@ -13,6 +13,10 @@ export default function Main() {
                     source={urlios}
                     javaScriptEnabled={true}
                     domStorageEnabled={true}
+                    allowUniversalAccessFromFileURLs={true}
+                    allowFileAccessFromFileURLs={true}
+                    javaScriptCanOpenWindowsAutomatically={true}
+                    allowsInlineMediaPlayback={true}
                 />
                 <BannerAd
                     unitId='ca-app-pub-5425858352547326/5541120611'
@@ -39,10 +43,13 @@ export default function Main() {
                     source={{ uri: 'file:///android_asset/index.html' }}
                     javaScriptEnabled={true}
                     domStorageEnabled={true}
-                    r
+                    allowUniversalAccessFromFileURLs={true}
+                    allowFileAccessFromFileURLs={true}
+                    javaScriptCanOpenWindowsAutomatically={true}
+                    allowsInlineMediaPlayback={true}
                 />
-                <BannerAd
-                    unitId='ca-app-pub-5425858352547326/5541120611'
+                {/* <BannerAd
+                    unitId='ca-app-pub-5425858352547326/8924480783'
                     size={BannerAdSize.FULL_BANNER}
                     requestOptions={{
                         requestNonPersonalizedAdsOnly: true,
@@ -53,7 +60,7 @@ export default function Main() {
                     onAdFailedToLoad={(error) => {
                         console.error('Advert failed to load: ', error);
                     }}
-                />
+                /> */}
             </>
         )
     }
